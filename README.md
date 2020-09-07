@@ -3,8 +3,9 @@
 EVALUACION DEL ALGORITMO V2 FILTRO KALMAN:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="600" height="360" border="10" /> 
+
 Descripcion
-----
+
 - OBTENER CENTROIDE
 - OBTENER CONTORNO DE RECTANGULO
 - LIMPIAR IMAGEN Y ENCONTRAR VEHICULOS
