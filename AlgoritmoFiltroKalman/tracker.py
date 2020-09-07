@@ -1,32 +1,31 @@
 """
-    Vehicle Tracker
-    This module tracks vehicles in a video of a highway where the camera is still.
-    Usage:
-        python tracker.py [options]
-    Options:
-        -v <video_path>     A path from the current directory to the input video. Default value: ./input/Highway1.mp4
-        -b <bg_path>        A path from the current directory to an image file with a background model that fits the
-                            input video. Default value: ./input/background.jpg, fits the given video files Highway1.mp4,
-                            Highway3.mp4, Highway4.mp4.
-                            Notice: using AVI files are problematic on some systems.
-        --hide-blobs        If this parameter is used, the window showing the current frame's vehicle blobs is not
-                            shown. In default, this window is shown.
-        --fbf               Frame-by-frame. This changes the mode from video mode to manual mode. Moving between the
-                            video frames stops being automatic, and a keypress (i.e. spacebar) is needed to continue to
-                            the next frame.
-        -l <height>         The height of the counting-line. This is a floating point number between 0 and 1, exclusive.
-                            It measures the distance from the top of the video, where a line will be, and every vehicle
-                            that passes the line will be counted. After each frame, the number of vehicles that have
-                            already passed the line will be outputted to the screen.
-                            The default value for this parameter is 0.7, and values under 0.7 are discouraged because
-                            the vehicles are far away and in some cases multiple vehicles appear as one. The best values
-                            for this parameter are between 0.7 and 0.9 .
-        -h, --help          Display this help and exit
-    The module is based on tools from the following libraries: NumPy, SciPy, OpenCV
-    Code examples that helped build the module:
-        Moving Object Recognition -
+    Rastreador de vehículos
+    Este módulo rastrea vehículos en un video de una carretera donde la cámara está quieta.
+    Uso:
+        python tracker.py [opciones]
+    Opciones:
+        -v <video_path> Una ruta desde el directorio actual al video de entrada. Valor predeterminado: ./input/Av28julio.mp4
+        -b <bg_path> Una ruta desde el directorio actual a un archivo de imagen con un modelo de fondo que se ajusta al
+                            entrada de video. Valor predeterminado: ./input/background.jpg, se ajusta a los archivos de video dados xxx.mp4,
+                            Aviso: el uso de archivos AVI es problemático en algunos sistemas.
+        --hide-blobs Si se usa este parámetro, la ventana que muestra las manchas de vehículos del marco actual no
+                            mostrado. De forma predeterminada, se muestra esta ventana.
+        --fbf Cuadro por cuadro. Esto cambia el modo de video a modo manual. Moviéndose entre el
+                            Los fotogramas de video dejan de ser automáticos y se necesita presionar una tecla (es decir, barra espaciadora) para continuar
+                            el siguiente cuadro.
+        -l <altura> La altura de la línea de conteo. Este es un número de coma flotante entre 0 y 1, exclusivo.
+                            Mide la distancia desde la parte superior del video, donde estará una línea, y cada vehículo
+                            que pase la línea será contado. Después de cada cuadro, el número de vehículos que tienen
+                            ya pasada la línea se mostrará en la pantalla.
+                            El valor predeterminado para este parámetro es 0,7 y los valores inferiores a 0,7 no se recomiendan porque
+                            los vehículos están lejos y, en algunos casos, varios vehículos aparecen como uno solo. Los mejores valores
+                            para este parámetro están entre 0,7 y 0,9.
+        -h, --help Muestra esta ayuda y sale
+    El módulo se basa en herramientas de las siguientes bibliotecas: NumPy, SciPy, OpenCV
+    Ejemplos de código que ayudaron a construir el módulo:
+        Reconocimiento de objetos en movimiento -
             http://stackoverflow.com/questions/36254452/counting-cars-opencv-python-issue?rq=1
-        Kalman Filter -
+        Filtro de Kalman -
             http://stackoverflow.com/questions/29012038/is-there-any-example-of-cv2-kalmanfilter-implementation
 """
 import random
