@@ -2,7 +2,7 @@
 
 
 AlgoritmoFiltroKalman/1 captura filtro kalman.png
-<img src="http://img.youtube.com/vi/BBwEF6WBUQs/0.jpg" width="360" height="240" border="10" /> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="360" height="240" border="10" /> 
 
 EVALUACION DEL ALGORITMO V2 FILTRO KALMAN:
 - OBTENER CENTROIDE
