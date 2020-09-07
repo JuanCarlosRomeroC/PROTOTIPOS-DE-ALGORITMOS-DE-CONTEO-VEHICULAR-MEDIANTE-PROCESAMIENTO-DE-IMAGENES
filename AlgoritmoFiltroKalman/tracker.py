@@ -250,7 +250,7 @@ class VehicleTracker:
 
 def input_params(args):
     default_params = {
-        'video': './input/Highway0.mp4',
+        'video': './input/Av28julio.mp4',
         'background': './input/background.jpg',
         'show_blobs': True,
         'frame_by_frame': False,
