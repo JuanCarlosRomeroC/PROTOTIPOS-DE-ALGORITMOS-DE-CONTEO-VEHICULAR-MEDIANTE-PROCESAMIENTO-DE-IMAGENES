@@ -4,11 +4,20 @@ EVALUACION DEL ALGORITMO SUBSTRACTOR MOG2
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoSubstractorMOG2/Resultado.png" width="600" height="360" border="10" />
 
+DESCRIPCION
+>SubtractorMog2 tiene la ventaja de trabajar con un historial de cuadros, funciona de forma predeterminada con los últimos 120 cuadros, primer fotograma de manera alta durante >el día, después de algunas horas cuando se pone el sol, calculando la diferencia con el primer fotograma tomado unas horas antes no funcionaría.
+>El valor umbral es el valor utilizado al calcular la diferencia para extraer el fondo. Un umbral más bajo encontrará más diferencias con la ventaja de una imagen más ruidosa.
+>Las coordenadas y diámetro del auto se encuentra en Vehiculo.py para la detección de múltiples autos.
+>Menú principal del algoritmo Menu.py
+
+
+
+
 EVALUACION DEL ALGORITMO V2 FILTRO KALMAN:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="600" height="360" border="10" /> 
 
-Descripcion
+DESRIPCION
 
 - OBTENER CENTROIDE
 - OBTENER CONTORNO DE RECTANGULO
