@@ -37,7 +37,7 @@ import detector
 import numpy as np
 import scipy.spatial.distance as distance
 
-# Tuple indices
+# Tabla indices
 X_POS, Y_POS = 0, 1
 
 # Colours for drawing on processed frames
@@ -45,7 +45,7 @@ DIVIDER_COLOUR = (255, 255, 0)
 BOUNDING_BOX_COLOUR = (255, 0, 0)
 CENTROID_COLOUR = (0, 0, 255)
 
-# Keyboard
+# Keyboard Tecla para Salir
 ESC_KEY = 27
 
 
@@ -53,19 +53,19 @@ ESC_KEY = 27
 
 def euclid(a, b):
     """
-    :param a: Array a
-    :param b: Array b of the same shape as a
-    :return: Euclidean distance between a and b
+     : param a: Array a
+     : param b: Array b de la misma forma que a
+     : return: distancia euclidiana entre ay b
     """
     return distance.euclidean(a, b)
 
 
 def are_same_picture(pic1, pic2):
     """
-    :param pic1: A Numpy array of shape (width, height, 3), representing a picture
-    :param pic2: A Numpy array of the same shape as pic1
-    :return: A heuristic guess of whether the two pictures are actually the same one (plus noise) or truly different.
-     Useful for comparing following frames in a video
+     : param pic1: Un conjunto de formas Numpy (ancho, alto, 3), que representa una imagen
+     : param pic2: Una matriz Numpy de la misma forma que pic1
+     : return: una suposición heurística de si las dos imágenes son realmente la misma (más ruido) o realmente diferentes.
+     Útil para comparar los siguientes cuadros en un video
     """
     if pic1 is None or pic2 is None:
         return False
@@ -77,7 +77,7 @@ def are_same_picture(pic1, pic2):
 
 def random_color():
     """
-    :return: List with three random values in the range 0-255
+    : return: Lista con tres valores aleatorios en el rango 0-255
     """
     r = random.randint(0, 255)
     g = random.randint(0, 255)
@@ -85,7 +85,7 @@ def random_color():
     return [r, g, b]
 
 
-# --------- Vehicle and Tracker ----------
+# --------- Vehiculo y Rastreador ----------
 
 class Vehicle:
     def __init__(self, contour):
@@ -102,16 +102,16 @@ class Vehicle:
 
     def update_contour(self, contour):
         """
-        Allows updating the contour of the vehicle according to the new values in the current frame. Also updates the
-         Kalman filter so that predictions are more accurate in the future
-        :param contour: A tuple (x, y, w, h) representing the new contour
+         Permite actualizar el contorno del vehículo de acuerdo con los nuevos valores en el cuadro actual. También actualiza el
+         Filtro de Kalman para que las predicciones sean más precisas en el futuro
+         : param contour: una tupla (x, y, w, h) que representa el nuevo contorno
         """
         self._x, self._y, self._w, self._h = contour
         self._kalman_position.correct(np.array([[self.centroid[X_POS]], [self.centroid[Y_POS]]], np.float32))
 
     def predict_kalman_position(self):
         """
-        :return: Predicted (x, y) position of the vehicle's centroid
+        : return: posición predicha (x, y) del centroide del vehículo
         """
         prediction = self._kalman_position.predict()
         return prediction[X_POS][0], prediction[Y_POS][0]
@@ -146,7 +146,7 @@ class VehicleTracker:
 
         self._counter_line_px = int(self._counter_line * self._height)
 
-        self._vehicles = []  # The vehicles being tracked in the current frame
+        self._vehicles = []  # Los vehículos que se están rastreando en el cuadro actual
 
         self._passed_count = 0
 
@@ -155,34 +155,34 @@ class VehicleTracker:
 
     def increment_frame(self):
         """
-        Reads the next frame from the given video. Recalculates what vehicles are in the frame and where.
-        :return: A tuple (vehicles_count, success) where vehicles_count is the number of vehicles that crossed the line
-         until the current frame (inclusive), and success is whether there really was another frame, i.e. the video
-         has not yet ended
+         Lee el siguiente fotograma del video dado. Vuelve a calcular qué vehículos están en el cuadro y dónde.
+         : return: una tupla (número_vehículos, éxito) donde cuenta_vehículos es el número de vehículos que cruzaron la línea
+         hasta el fotograma actual (incluido), y el éxito es si realmente hubo otro fotograma, es decir, el video
+         aún no ha terminado
         """
 
-        # 1. Read the next frame from the input source
+        # 1. Lea el siguiente cuadro de la fuente de entrada
         ret, frame = self._frame_reader.read()
         if not ret:
             return self._passed_count, False
         if are_same_picture(frame, self._cur_frame):
             return self.increment_frame()  # next frame
 
-        # 2. Detect vehicles in the current frame
+        # 2. Detecta vehículos en el marco actual
         self._cur_frame = frame
         frame_vehicles = self.detect_vehicles()
 
-        # 3. Match between old vehicles and frame vehicles - create new vehicles where needed
-        #    Also count the number of vehicles that passed the line
+        # 3. Coincidencia entre vehículos antiguos y vehículos con estructura: cree vehículos nuevos donde sea necesario
+        # También cuente la cantidad de vehículos que pasaron la línea
         new_vehicles = []
         for contour, centroid in frame_vehicles:
             nearest = self.find_near_vehicle(centroid)
             if nearest is None:
                 new_vehicles.append(Vehicle(contour))
             else:
-                self._vehicles.remove(nearest)  # so that no other contour points to it
+                self._vehicles.remove(nearest)  # para que ningún otro contorno lo señale
                 new_vehicles.append(nearest)
-                # check if the vehicle just crossed the line
+                # compruebe si el vehículo acaba de cruzar la línea
                 old_centroid = nearest.centroid
                 nearest.update_contour(contour)
                 if old_centroid[Y_POS] <= self._counter_line_px < centroid[Y_POS]:
@@ -193,9 +193,9 @@ class VehicleTracker:
 
     def detect_vehicles(self):
         """
-        Uses self's background subtractor and current frame to calculate the current frame's foreground mask and detect
-         the vehicles in the current frame
-        :return: A list of vehicle contours from the current frame
+        Utiliza el sustractor de fondo propio y el marco actual para calcular la máscara de primer plano del marco actual y detectar
+        los vehículos en el marco actual
+        : volver: una lista de los contornos del vehículo del cuadro actual
         """
         self._fg_mask = self._bg_subtractor.apply(self.current_frame, None, 0.005)
         self._fg_mask = detector.filter_mask(self._fg_mask)
@@ -203,9 +203,9 @@ class VehicleTracker:
 
     def find_near_vehicle(self, centroid, threshold=30):
         """
-        :param centroid: A point on the 2d plane of the frame
-        :param threshold: A distance, that is considered too far for an object to pass in two consecutive frames
-        :return: A near vehicle or None
+         : param centroide: un punto en el plano 2d del marco
+         : umbral de parámetro: una distancia que se considera demasiado lejana para que un objeto pase en dos fotogramas consecutivos
+         : return: Un vehículo cercano o Ninguno
         """
         if len(self._vehicles) == 0:
             return None
@@ -223,7 +223,7 @@ class VehicleTracker:
 
     def mark_vehicles(self):
         """
-        :return: The current frame, with markings around the vehicles and the separating line
+        : retorno: el cuadro actual, con marcas alrededor de los vehículos y la línea de separación
         """
         processed = self.current_frame.copy()
 
@@ -245,7 +245,7 @@ class VehicleTracker:
         return self._fg_mask
 
 
-# ---------------- Main ------------------
+# ---------------- MENU ------------------
 
 def input_params(args):
     default_params = {
