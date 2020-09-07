@@ -2,7 +2,7 @@
 
 EVALUACION DEL ALGORITMO SUBSTRACTOR MOG2
 
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoSubstractorMOG2/Resultado.png" width="600" height="360" border="10" />
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoSubstractorMOG2/Resultado.png" width="600" height="360" border="10" align="center"/>
 
 DESCRIPCION
 >SubtractorMog2 tiene la ventaja de trabajar con un historial de cuadros, funciona de forma predeterminada con los últimos 120 cuadros, primer 
@@ -18,7 +18,7 @@ Menú principal del algoritmo Menu.py
 
 EVALUACION DEL ALGORITMO V2 FILTRO KALMAN:
 
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="600" height="360" border="10" /> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="600" height="360" border="10" align="center"/> 
 
 DESRIPCION
 
