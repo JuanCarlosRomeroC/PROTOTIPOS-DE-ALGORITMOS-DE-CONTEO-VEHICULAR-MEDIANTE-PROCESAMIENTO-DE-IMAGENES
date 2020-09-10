@@ -43,7 +43,7 @@ DESRIPCION
 ALGORITMO HAAR CASCADE Y SUBSTRACTOR DE FONDOS MOG2:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoHaarCascade/autos.png" width="600" height="360" border="10" align="center"/> 
-
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoHaarCascade/buses.PNG" width="600" height="360" border="10" align="center"/> 
 
 
 
