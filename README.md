@@ -1,6 +1,6 @@
 # PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES
 
-EVALUACION DEL ALGORITMO SUBSTRACTOR MOG2
+ALGORITMO SUBSTRACTOR MOG2
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoSubstractorMOG2/Resultado.png" width="600" height="360" border="10" align="center"/>
 
@@ -14,9 +14,7 @@ Las coordenadas y diámetro del auto se encuentra en Vehiculo.py para la detecci
 Menú principal del algoritmo Menu.py
 
 
-
-
-EVALUACION DEL ALGORITMO V2 FILTRO KALMAN:
+ALGORITMO FILTRO KALMAN:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoFiltroKalman/1%20captura%20filtro%20kalman.png" width="600" height="360" border="10" align="center"/> 
 
@@ -40,6 +38,14 @@ DESRIPCION
 >VERSION DE OPENCV: 3.3 – 3.4
 >OS.WIN 10 EDU
 >CORE i5 2.3GHz RAM 4GB 
+
+
+ALGORITMO HAAR CASCADE Y SUBSTRACTOR DE FONDOS MOG2:
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoHaarCascade/autos.png" width="600" height="360" border="10" align="center"/> 
+
+
+
 
 License
 ----
