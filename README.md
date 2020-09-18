@@ -53,7 +53,7 @@ Referencia
 ----
 >https://pysource.com/2018/05/17/background-subtraction-opencv-3-4-with-python-3-tutorial-32/
 
->https://pyimagesearch.com20161107intersection-over-union-iou-for-object-detection
+>https://www.pyimagesearch.com20161107intersection-over-union-iou-for-object-detection
 
 >https://github.com/PINTO0309/OpenVINO-YoloV3
 
