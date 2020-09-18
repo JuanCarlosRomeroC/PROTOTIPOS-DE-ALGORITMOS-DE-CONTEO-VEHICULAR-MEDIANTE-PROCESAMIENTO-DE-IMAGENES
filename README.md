@@ -53,6 +53,10 @@ Referencia
 ----
 >https://pysource.com/2018/05/17/background-subtraction-opencv-3-4-with-python-3-tutorial-32/
 
+
+>https://stackoverflow.com/questions/29012038/is-there-any-example-of-cv2-kalmanfilter-implementation
+>https://stackoverflow.com/questions/36254452/counting-cars-opencv-python-issue?rq=1
+
 >https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
 >https://github.com/PINTO0309/OpenVINO-YoloV3
