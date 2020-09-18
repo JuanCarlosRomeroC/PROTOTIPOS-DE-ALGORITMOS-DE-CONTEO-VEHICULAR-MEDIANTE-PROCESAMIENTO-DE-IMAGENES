@@ -1,0 +1,2 @@
+##link de archivos (yolov3.cfg, yolov3.weights)
+https://1drv.ms/u/s!AmVYh9gyDi43hmQsmdlmvhv95FFG?e=l3Wi3u
