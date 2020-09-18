@@ -49,6 +49,21 @@ Algoritmo Iou:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/Resultados.png" width="" height="320" border="240" align="center"/> 
 
+Algoritmo Caffe Mobilenet:
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/prototipo.png" width="" height="320" border="240" align="center"/> 
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/prototipo2.png" width="" height="320" border="240" align="center"/> 
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/prototipo3.png" width="" height="320" border="240" align="center"/> 
+
+Algoritmo YOLO:
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/resultados.PNG" width="" height="320" border="240" align="center"/> 
+
+
+
+
 Referencia
 ----
 | Algoritmo | Fuente |
