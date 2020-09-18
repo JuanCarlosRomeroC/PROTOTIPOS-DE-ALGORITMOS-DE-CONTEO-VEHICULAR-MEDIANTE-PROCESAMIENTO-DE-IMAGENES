@@ -53,7 +53,7 @@ Algoritmo Caffe Mobilenet:
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoCaffeMobilenet/prototipo.png" width="" height="320" border="240" align="center"/> 
 
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoCaffeMobilenet/prototipo2.png" width="" height="320" border="400" align="center"/> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoCaffeMobilenet/prototipo2.png" width="" height="300" border="260" align="center"/> 
 
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoCaffeMobilenet/prototipo3.png" width="" height="320" border="240" align="center"/> 
 
