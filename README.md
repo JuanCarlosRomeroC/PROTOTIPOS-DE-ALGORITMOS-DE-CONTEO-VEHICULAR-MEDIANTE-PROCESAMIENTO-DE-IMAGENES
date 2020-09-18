@@ -53,10 +53,11 @@ Referencia
 ----
 | Algoritmo | Fuente |
 | ------------- | ------------- |
-| MOG2 | https://pysource.com/2018/05/17/background-subtraction-opencv-3-4-with-python-3-tutorial-32/ |
-| FILTRO KALMAN | https://stackoverflow.com/questions/29012038/is-there-any-example-of-cv2-kalmanfilter-implementation, https://stackoverflow.com/questions/36254452/counting-cars-opencv-python-issue?rq=1  |
-| HAAR CASCADE | https://github.com/AdityaPai2398/UI-For-Vehicle-and-Pedestrian-Detection-/tree/master/Vehicle%20and%20pedestrain%20detection |
-| IOU | https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/ |
+| Mog2 | https://pysource.com/2018/05/17/background-subtraction-opencv-3-4-with-python-3-tutorial-32/ |
+| Filtro Kalman | https://stackoverflow.com/questions/29012038/is-there-any-example-of-cv2-kalmanfilter-implementation, https://stackoverflow.com/questions/36254452/counting-cars-opencv-python-issue?rq=1  |
+| Haar Cascade | https://github.com/AdityaPai2398/UI-For-Vehicle-and-Pedestrian-Detection-/tree/master/Vehicle%20and%20pedestrain%20detection |
+| IoU | https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/ |
+| Caffe Mobilenet | https://answers.opencv.org/answers/225675/revisions/ |
 | YOLO | https://github.com/PINTO0309/OpenVINO-YoloV3 |
 
 License
