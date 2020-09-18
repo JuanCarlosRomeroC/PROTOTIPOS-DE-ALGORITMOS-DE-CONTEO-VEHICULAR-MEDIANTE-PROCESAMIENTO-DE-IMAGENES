@@ -46,7 +46,8 @@ ALGORITMO HAAR CASCADE:
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoHaarCascade/buses.PNG" width="600" height="360" border="10" align="center"/> 
 
 Algoritmo Iou:
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/resultado.PNG" width="600" height="360" border="10" align="center"/> 
+
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoIoU/resultado.PNG" width="600" height="600" border="10" align="center"/> 
 
 Agradecimientos:
 
