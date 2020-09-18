@@ -59,7 +59,7 @@ Algoritmo Caffe Mobilenet:
 
 Algoritmo YOLO:
 
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoYoloV3/resultados.PNG" width="" height="320" border="240" align="center"/> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoYoloV3/resultados.PNG" width="" height="480" border="320" align="center"/> 
 
 Referencia
 ----
