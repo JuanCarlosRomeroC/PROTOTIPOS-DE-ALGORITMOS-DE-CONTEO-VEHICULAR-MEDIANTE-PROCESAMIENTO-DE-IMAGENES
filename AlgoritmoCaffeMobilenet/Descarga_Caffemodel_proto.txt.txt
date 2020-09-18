@@ -1,0 +1,3 @@
+###Link Opcional del Video de Pruebas ###
+###Link de Descarga de los Archivos Adicionales de OneDrive - DDN (MobileNetSSD_deploy.caffemodel y MobileNetSSD_deploy.prototxt) ###
+https://1drv.ms/u/s!AmVYh9gyDi43hmNAv818wwUM1ShU?e=yKe3or
