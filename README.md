@@ -62,7 +62,7 @@ Algoritmo YOLO:
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoYoloV3/resultados.PNG" width="" height="480" border="320" align="center"/> 
 
 Prototipo de Sistema en Python + OpenCV + NCS2 + Mobilenet + Framework Dash + Xls:
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/tree/master/RASPBERRY_PI_3_NCS2_MOBILENET/1.png"
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/tree/master/RASPBERRY_PI_3_NCS2_MOBILENET/mobilenet_ncs2.PNG"
 width="" height="480" border="320" align="center"/> 
 Referencia
 ----
