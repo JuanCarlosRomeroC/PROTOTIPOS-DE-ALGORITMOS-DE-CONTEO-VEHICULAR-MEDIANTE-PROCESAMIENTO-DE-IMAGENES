@@ -62,8 +62,10 @@ Algoritmo YOLO:
 <img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/AlgoritmoYoloV3/resultados.PNG" width="" height="480" border="320" align="center"/> 
 
 Prototipo de Sistema en Python + OpenCV + NCS2 + Mobilenet + Framework Dash + Xls:
-<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/RASPBERRY_PI_3_NCS2_MOBILENET/mobilenet_ncs2.PNG" width="" height="480" border="320" align="center"/> 
 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/RASPBERRY_PI_3_NCS2_MOBILENET/mobilenet_ncs2.PNG" width="" height="480" border="320" align="center"/> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/RASPBERRY_PI_3_NCS2_MOBILENET/Diagram_flow_Count_Classf.png" width="" height="480" border="320" align="center"/> 
+<img src="https://github.com/JuanCarlosRomeroC/PROTOTIPOS-DE-ALGORITMOS-DE-CONTEO-VEHICULAR-MEDIANTE-PROCESAMIENTO-DE-IMAGENES/blob/master/RASPBERRY_PI_3_NCS2_MOBILENET/mvc dash.png" width="" height="480" border="320" align="center"/> 
 Referencia
 ----
 | Algoritmo | Fuente |
