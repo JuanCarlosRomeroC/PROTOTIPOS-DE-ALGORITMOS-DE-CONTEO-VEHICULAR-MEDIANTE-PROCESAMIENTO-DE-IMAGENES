@@ -81,6 +81,10 @@ Referencia
 | Caffe Mobilenet | https://answers.opencv.org/answers/225675/revisions/ |
 | YOLO | https://github.com/PINTO0309/OpenVINO-YoloV3 |
 
+Agradecimiento
+----
+https://www.pyimagesearch.com/category/raspberry-pi/
+
 License
 ----
 
