@@ -8,7 +8,7 @@ import time
 cnt_up=0
 cnt_down=0
 #LECTURA DE VIDEO
-#cap=cv2.VideoCapture("surveillance.m4v")
+
 cap=cv2.VideoCapture("Videotest1.mp4")
 #OBTENER ANCHO Y ALTO DEL CUADRO DE VIDEO
 w=cap.get(3)
