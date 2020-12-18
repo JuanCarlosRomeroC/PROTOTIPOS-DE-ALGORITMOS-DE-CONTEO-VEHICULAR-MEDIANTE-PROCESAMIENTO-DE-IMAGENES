@@ -1,0 +1,3 @@
+
+[database]
+con = sqlite:///bd/bd_conteo_clasificacion.db
