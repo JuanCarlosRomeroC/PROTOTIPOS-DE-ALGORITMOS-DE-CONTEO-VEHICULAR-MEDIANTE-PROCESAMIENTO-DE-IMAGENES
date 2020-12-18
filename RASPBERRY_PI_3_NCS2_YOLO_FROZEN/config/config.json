@@ -1,0 +1,19 @@
+{
+	// path to YOLO architecture definition XML file
+	"xml_path": "yolo/frozen_darknet_tinyyolov3_model.xml",
+    //"xml_path": "yolo/frozen_tiny_yolo_v3.xml",
+    
+    // path to the YOLO weights
+	
+	"bin_path": "yolo/frozen_darknet_tinyyolov3_model.bin",
+	//"bin_path": "yolo/frozen_tiny_yolo_v3.bin",
+	// path to the file containing COCO labels
+	"labels_path": "yolo/coco.names",
+
+	// probability threshold for detections filtering
+	"prob_threshold": 0.5,
+
+	// intersection over union threshold for filtering overlapping
+	// detections
+	"iou_threshold": 0.15
+}
